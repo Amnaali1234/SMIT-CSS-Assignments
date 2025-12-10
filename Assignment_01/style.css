@@ -1,0 +1,63 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+}
+.ptable {
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+}
+table tr td {
+  text-align: center;
+  border: 2px solid white;
+  color: white;
+  vertical-align: middle;
+  height: 2vh;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  line-height: 1.2;
+}
+td b {
+  font-size: 20px;
+}
+caption {
+  font-family: sans-serif;
+  color: darkblue;
+  text-align: center;
+  margin-top: 5px;
+}
+.green {
+  background-color: #66cdaa;
+}
+.purple {
+  background-color: #8f38e5;
+}
+.yellow {
+  background-color: #ffd700;
+}
+.orange {
+  background-color: orange;
+}
+.gray {
+  background-color: #a7b1b7;
+}
+.red {
+  background-color: #d8505f;
+}
+.sky {
+  background-color: #4ba4df;
+}
+.black {
+  background-color: #0a0f1a;
+}
+.lightpurple {
+  background-color: #7a5ce1;
+}
+.parrot {
+  background-color: yellowgreen;
+}
