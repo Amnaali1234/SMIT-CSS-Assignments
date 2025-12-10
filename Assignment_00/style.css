@@ -1,0 +1,98 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+.left {
+display: flex;
+align-items: center;
+gap: 10px;
+    }
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    height: 65px;
+    background: #0F2027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.logo{
+   
+    font-size: 26px;
+    font-weight: bold;
+    color: white;
+}
+.logo:hover{
+    color: rgb(128, 0, 73);
+}
+nav ul{
+    display: flex;
+    gap: 30px;
+}
+nav ul li {
+    list-style: none;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+nav ul li a:hover {
+    color: cadetblue;
+}
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+    min-height: 90vh;
+    background: #3a6186;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #89253e, #3a6186);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #89253e, #3a6186); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    color: #fff;
+}
+.hero text {
+    min-height: 50%;
+}
+.hero text h3 {
+    margin-bottom: 10px;
+}
+.hero text h1{
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+span {
+    color: cadetblue;
+}
+.hero text p {
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+.btn1 {
+    background-color: rgb(0, 92, 128);
+    color: white;
+    padding: 12px 25px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-right: 15px;
+    display: inline-block;
+}
+.btn2 {
+     background-color: rgb(128, 0, 73);
+    color: white;
+    padding: 12px 25px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-right: 15px;
+    display: inline-block;
+}
+.hero-image img{
+    border-radius: (20px solid);
+border-radius: 50%;
+}
+    
